@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h3{
+    padding:0;
+    margin:0;
+}
+
+.divtitulo{
+    height: 50px;
+    background-color: rgb(49, 47, 47);
+}
+.titulo{
+    text-align: center;
+    padding-top: 15.64px;
+    color: white;
+}
+
+.borda{
+    height: 5px;
+    background-color: orangered;
+}
+
+.container{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nome{
+    font-size: 0.7em;
+}
+
+.legenda1{
+    font-size: 0.5em;
+    color: rgba(0,0,0,0.5);
+}
+
+.image{
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor:pointer;
+}
+
+.text{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.p1{
+    text-align: left;
+}
+
+.p2{
+    text-align: left;
+    color: orangered;
+}
+
+.a1{
+    color: orangered;
+    text-decoration: none;
+}
+
+.image2{
+    width: 45em;
+    text-align: center;
+}
+
+.legenda2{
+    font-size: 0.48em;
+}
+
+.p3{
+    text-align: left;
+}
+
+.tit{
+    text-align: left;
+}
+
+.p4{
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <script src="output/script.js"></script>
+    <div class="container">
+        <h1 class="title">Cadastre-se para acessar o sistema</h1>
+        <p>Email</p>
+        <input id="email" class="email" type="email" placeholder="Digite seu email" data-required> 
+        <p id="erro_email" class="erro"></p>
+        <div class="container2">
+            <p>Nome</p>
+            <input id="nome" class="nome" type="text" placeholder="Digite seu nome" data-required>
+            <p id="erro_nome" class="erro"></p>
+            <p>Senha</p>
+            <input id="senha" class="senha" type="password" placeholder="Digite sua senha" data-required>
+            <p id="erro_senha" class="erro"></p>
+        </div>
+        <div class="container3">
+            <p>Sobrenome</p>
+            <input id="sobrenome" class="sobrenome" type="text" placeholder="Digite seu sobrenome" data-required>
+            <p id="erro_sobrenome" class="erro"></p>
+            <p>Confirmação de senha</p>
+            <input id="confirma_senha" class="senha" type="password" placeholder="Digite novamente sua senha" data-required>
+            <p id="erro_confirmar_senha" class="erro"></p>
+        </div>
+        <label>
+            <input id="check" class="check" type="checkbox" data-required> <p class="checke">Eu li e aceito os <a href="#">termos de uso</a> </p>
+            <p id="erro_check" class="erro"></p>
+        </label>
+        <input onclick="verifica()" class="botao" type="button" value="Registrar">
+    </div>
+</body>
+</html>
